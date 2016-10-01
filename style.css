@@ -1,3 +1,7 @@
+* {
+  font-family: Arial;
+
+}
 nav {
   height: 90px;
   width: 1024px;
@@ -31,7 +35,6 @@ ul li {
 
 
 }
-
 figure {
   height: 450px;
   width: 960px;
@@ -40,4 +43,32 @@ figure {
   text-align: center;
   font-size: 50px;
   margin: 20px;
+}
+.section1 {
+  height: 375px;
+  width: 300px;
+  background-color: #000000;
+
+}
+.section2 { display: inline-block; width: 33%; }
+.section3 { float: right; width: 33%; }
+
+p {
+  height: 480px;
+  width: 400px;
+  float: left;
+}
+div {
+
+}
+div header {
+  position: fixed;
+  z-index: 10;
+}
+footer {
+  background-color: #403D37;
+  height: 60px;
+  width: 1024px;
+  margin-top: 50px;
+  position: static;
 }
